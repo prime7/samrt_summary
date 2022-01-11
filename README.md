@@ -2,6 +2,21 @@
 
 Text summarization is the technique by which we can generate short summary of lengthy texts, news articles focusing on the important part of that writing. Smart summary aims to transform lengthy documents in shortened versions, something which could be costly to do manually.
 
+## Summarization steps
+1. Data preparation and cleaning
+  - Get data from Wikipedia/clipboard source
+  - Parse the data
+  - Clean unwanted data
+2. Tokenizing
+  - Create frequency table from the paragraph
+  - Tokenize the sentences 
+3. Algorithm
+  - Create algorithm for scoring each sentence
+  - Calculate threshold
+  - Generate summary
+
+[Algorithm code](Backend/api/algorithm.py) 
+
 The project seperated into two modules. 
 1. [Backend](#backend)(serving data to frontend, actual algorithm to create the summary)
 2. [Frontend](#frontend)(UI interface for the users to use the system)
