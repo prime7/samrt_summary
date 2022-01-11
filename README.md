@@ -4,16 +4,16 @@ Text summarization is the technique by which we can generate short summary of le
 
 ## Summarization steps
 1. Data preparation and cleaning
-  - Get data from Wikipedia/clipboard source
-  - Parse the data
-  - Clean unwanted data
+    - Get data from Wikipedia/clipboard source
+    - Parse the data
+    - Clean unwanted data
 2. Tokenizing
-  - Create frequency table from the paragraph
-  - Tokenize the sentences 
+    - Create frequency table from the paragraph
+    - Tokenize the sentences 
 3. Algorithm
-  - Create algorithm for scoring each sentence
-  - Calculate threshold
-  - Generate summary
+    - Create algorithm for scoring each sentence
+    - Calculate threshold
+    - Generate summary
 
 [Algorithm code](Backend/api/algorithm.py) 
 
